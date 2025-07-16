@@ -1,6 +1,6 @@
 # ASCII Art Generator
 
-A simple web application that converts your text into ASCII art using the power of Python, Flask, and pyfiglet.
+A simple web application that converts your text into ASCII art using the power of Python, Flask, and pyfiglet. It was created 2025-07-15 using Gemini CLI to test agentic coding using that tool.
 
 ## Description
 
