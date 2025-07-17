@@ -12,6 +12,12 @@ minimalist interface for a fun and straightforward user experience.
 
 * Simple, single-page interface
 * Real-time ASCII art generation
+* **Font selection with dropdown menu** - Choose from 5 different ASCII art styles:
+  * Standard - The default pyfiglet font
+  * Slant - Italicized/slanted text
+  * Block - Blocky, solid characters
+  * Digital - Digital/LCD-style characters
+  * Banner - Large banner-style text
 * Clean, modern design with custom CSS
 * Responsive layout for different screen sizes
 * Easy to set up and run locally
@@ -49,5 +55,6 @@ To run this application on your local machine, follow these steps:
 
 1. Open your web browser and navigate to http://127.0.0.1:5000.
 2. Enter the text you want to convert in the input field.
-3. Click the "Generate" button.
-4. The ASCII art will appear below the form.
+3. Select your preferred font style from the dropdown menu.
+4. Click the "Generate" button.
+5. The ASCII art will appear below the form in your chosen style.
