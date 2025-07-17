@@ -11,7 +11,14 @@
     <div class="container">
         <h1>ASCII Art Generator</h1>
         <form method="POST">
-            <input type="text" name="text" placeholder="Enter text...">
+            <div class="form-row">
+                <input type="text" name="text" placeholder="Enter text..." required>
+                <select name="font">
+                    {% for font_value, font_name in fonts %}
+                    <option value="{{ font_value }}">{{ font_name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
             <button type="submit">Generate</button>
         </form>
         <pre class="ascii-art">{{ ascii_art }}</pre>
